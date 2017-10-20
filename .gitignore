@@ -1,0 +1,4 @@
+# ignoruj pliki wykonalne
+
+*.o
+
