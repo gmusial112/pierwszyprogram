@@ -12,8 +12,7 @@ int main (void)
 
 	printf("Podaj wartosc argumentu a: "); scanf("%i", &a);
 	printf("Podaj wartosc argumentu b: "); scanf("%i", &b);
-	printf("Podaj dzialanie: "); scanf("%c", &wybor);
-	scanf("%c", &wybor);
+	printf("Podaj dzialanie: "); scanf(" %c", &wybor);
 	if(wybor == '*'){ mnoz(a,b);
 	}else if(wybor == '+'){ dodaj(a,b);
 	}else if(wybor == '-'){ odejmij(a,b);
