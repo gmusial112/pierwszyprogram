@@ -11,7 +11,7 @@ int dodaj (int a, int b)
 int main (void)
 {
 	int a = 2, b = 5; /*deklaracja wraz zinicjalizacją*/
-	char wybor = '*';
+	char wybor = '+';
 	/* if(wyrazenie) (blok jesli wyrazenie prawdziwe)
 	else (blok jesli wyrazenie fałszywe); */
 	if(wybor == '*'){ /* sprawdzenie czy rowne, to nie jest '=" */
