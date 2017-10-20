@@ -9,7 +9,9 @@ int main (void)
 {
 	int a,b;
 	char wybor;
+	int czy dalej = 1;
 
+	while (czy dalej == 1){
 	printf("Podaj wartosc argumentu a: "); scanf("%i", &a);
 	printf("Podaj wartosc argumentu b: "); scanf("%i", &b);
 	printf("Podaj dzialanie: "); scanf(" %c", &wybor);
@@ -18,6 +20,9 @@ int main (void)
 	}else if(wybor == '-'){ odejmij(a,b);
 	}else if(wybor == '/'){ dziel(a,b);
 	}else{puts("Nie rozpoznaje polecenia \n");
+	printf("Czy dalej chcesz liczyć?(1- tak / 0 - nie)");
+	scanf("%d, &czy dalej");
+
 };
 
  	return 0;
