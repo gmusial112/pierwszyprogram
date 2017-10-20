@@ -10,10 +10,10 @@ int main (void)
 	int a,b;
 	char wybor;
 
-	printf("Podaj wartosc argumentu a: "); scanf("%i", &a);
-	printf("Podaj wartosc argumentu b: "); scanf("%i", &b);
+	printf("Podaj wartosc argumentu a: "); scanf("%i\n", &a);
 	printf("Podaj dzialanie: "); scanf("%c", &wybor);
-	scanf("%c", &wybor);
+	printf("Podaj wartosc argumentu b: "); scanf("%i", &b);
+
 	if(wybor == '*'){ mnoz(a,b);
 	}else if(wybor == '+'){ dodaj(a,b);
 	}else if(wybor == '-'){ odejmij(a,b);
